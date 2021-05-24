@@ -1,0 +1,255 @@
+#title{
+  /* height: 700px; */
+  background-image: url('G:/Web Development/New Site Bootstrap and CSS/TinDog-Start-master/images/bg.png');
+
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+}
+
+.navbar{
+
+padding : 0 0 4.5rem 0;
+margin-right: 7rem;
+}
+
+.navbar-brand{
+  font-family: 'Montez';
+  font-size: 2.5rem;
+}
+
+.nav-item{
+  font-size: 1.25rem;
+  margin-right: 2%;
+}
+
+.nav-link{
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+ .iphone{
+  width: 47%;
+  /* transform: rotate(deg); */
+  position: relative;
+  left: 300px;
+  top: 130px;
+  filter: drop-shadow();
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 5rem;
+ line-height: 1.5;
+ color: white;
+}
+
+.container-fluid{
+  padding: 2% 10% 1% 10%;
+
+}
+/* Order And Directons Buttons */
+.btn-container{
+  margin-top: 75px;
+  width: 75%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.direction-btn{
+  width: 100%;
+  margin-left: 2%;
+  color: #d65a31;
+  border-color: #d65a31;
+  filter: brightness(200%);
+}
+
+.direction-btn:hover{
+  color: white;
+  background-color: #d65a31;
+  filter: brightness(100%);
+  margin-left: 2%;
+}
+
+.order-btn{
+  width: 100%;
+  margin-right: 2%;
+
+}
+
+.row{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* ______________________________features section___________________________________ */
+
+.featcols{
+  text-align: center;
+  padding: 2% 5%;
+}
+
+.container-features{
+  padding: 3% 10%;
+  margin-top: 100px;
+}
+
+.feat-text{
+  width: 80%;
+  font-family: 'Montserrat';
+  color: #8f8f8f;
+  margin: 0 auto;
+}
+
+.featheading{
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 2rem;
+  margin-top: 20px;
+}
+
+.icons{
+  color: #d65a31;
+}
+
+.icons:hover{
+  color: #222831;
+}
+
+
+/* Testimonial Seciton */
+
+#testimonials{
+  padding: 7% 20% 4% 15%;
+  background-color: #393e46;
+  text-align: center;
+  color: #eeeeee;
+}
+
+.testimonial-img{
+  width: 10%;
+  border-radius: 100%;
+  margin: 50px;
+  margin-right: 20px;
+}
+
+.testimonial-text{
+  padding-top: 15px;
+
+}
+
+
+/* Press Section */
+
+#press{
+  background-color: #393e46;
+  text-align: center;
+  padding-bottom: 3%;
+
+}
+
+.press-icons{
+  width: 10%;
+  margin: 3%;
+  margin-top: 10px;;
+  margin-bottom: 0;
+  padding: 0 10px;
+}
+
+/* Cards section */
+
+#Menu{
+  text-align: center;
+  padding: 100px;
+  padding-top: 160px;
+}
+
+
+.cards{
+  padding: 3%;
+  text-align: center;
+}
+
+.card-header{
+  background-color: #393e46;
+
+}
+
+.card-content{
+  font-family: 'Montserrat'
+}
+.card-title{
+  margin-top: 25px;
+  margin-bottom: 15px;
+  font-family: 'Montserrat';
+  font-weight: 700;
+}
+
+.card-img{
+  padding: 2%;
+}
+
+.card-btn{
+  color: #d65a31;
+  border-color: #d65a31;
+}
+
+
+.card-btn:hover{
+  color: white;
+  background-color: #d65a31;
+  border-color: white;
+
+}
+
+.rec-title{
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.rec-subtitle{
+  font-family: 'Montserrat';
+  font-size: 20px;
+
+}
+
+#cta{
+  background-color: #d65a31;
+  background-image: url("https://images.unsplash.com/photo-1548504769-900b70ed122e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  color: #eeeeee;
+  padding: 7% 15%;
+  text-align: center;
+}
+.btn-cta{
+
+    margin: 20px 40px;
+    padding: 2% 5%;
+  }
+
+#footer{
+  padding: 4% 15%;
+  text-align: center;
+
+}
+
+.social-icons{
+  margin:10px;
+}
+
+@media (width: 1170px) {
+  h1{
+    font-size: 2rem;
+  }
+
+  .iphone{
+    position: static;
+  }
+
+
+}
